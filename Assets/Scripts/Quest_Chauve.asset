@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3873a621bb93f5439ce9fd9936e1162, type: 3}
+  m_Name: Quest_Chauve
+  m_EditorClassIdentifier: Assembly-CSharp::PhotoQuest
+  title: "Qu\xEAte du Chauve"
+  description: Vous devez prendre une photo avec une personne chauve !
+  requiredTags:
+  - Chauve
+  goodVibesPoints: 50
+  nextQuest: {fileID: 11400000, guid: a8b712f99ddfce94499ceda4ed6dce42, type: 2}
